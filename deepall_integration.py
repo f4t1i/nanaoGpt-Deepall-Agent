@@ -106,8 +106,9 @@ class DeepALLIntegration:
         
         return pairwise
     
-    def optimize_module_selection(self, num_modules: int = 5) -> Dict:
-        """Recommend optimal module combinations"""
+    def optimize_module_selection(self, num_modules: int = 5) -> List[str]:
+        """Recommend optimal module combinations - returns List of module IDs"""
+        import random
         all_modules = self.inventory.get_all_module_ids()
         
         if num_modules > len(all_modules):
@@ -118,7 +119,6 @@ class DeepALLIntegration:
         best_score = -1.0
         
         for _ in range(100):  # Try 100 random combinations
-            import random
             combination = random.sample(all_modules, num_modules)
             synergy_result = self.detect_synergies(combination)
             total_score = synergy_result['total_score']
@@ -127,11 +127,62 @@ class DeepALLIntegration:
                 best_score = total_score
                 best_combination = combination
         
+        # Return List of module IDs (not Dictionary)
+        return best_combination if best_combination else random.sample(all_modules, num_modules)
+    
+    def detect_conflicts(self, module_ids: List[str]) -> Dict:
+        """Detect conflicts between selected modules"""
+        modules = [self.inventory.get_module(mid) for mid in module_ids if self.inventory.get_module(mid)]
+        
+        if not modules:
+            return {"conflicts": [], "conflict_score": 0.0}
+        
+        conflicts = []
+        total_conflict = 0.0
+        
+        # Check for category conflicts
+        categories = [m.category for m in modules]
+        category_conflicts = len(categories) != len(set(categories))
+        if category_conflicts:
+            total_conflict += 0.1
+            conflicts.append({"type": "category_overlap", "severity": 0.1})
+        
+        # Check for method conflicts
+        methods = [m.ai_training_method for m in modules]
+        method_conflicts = len(methods) != len(set(methods))
+        if method_conflicts:
+            total_conflict += 0.15
+            conflicts.append({"type": "method_overlap", "severity": 0.15})
+        
         return {
-            "recommended_modules": best_combination,
-            "synergy_analysis": self.detect_synergies(best_combination),
-            "optimization_score": round(best_score, 4)
+            "conflicts": conflicts,
+            "conflict_score": round(min(total_conflict, 1.0), 4),
+            "num_conflicts": len(conflicts)
         }
+    
+    def analyze_category_distribution(self) -> Dict[str, int]:
+        """Analyze distribution of modules across categories"""
+        distribution = {}
+        
+        for module_id in self.inventory.get_all_module_ids():
+            module = self.inventory.get_module(module_id)
+            if module:
+                category = module.category if module.category else 'unknown'
+                distribution[category] = distribution.get(category, 0) + 1
+        
+        return distribution
+    
+    def analyze_ai_method_distribution(self) -> Dict[str, int]:
+        """Analyze distribution of modules across AI training methods"""
+        distribution = {}
+        
+        for module_id in self.inventory.get_all_module_ids():
+            module = self.inventory.get_module(module_id)
+            if module:
+                method = module.ai_training_method if module.ai_training_method else 'unknown'
+                distribution[method] = distribution.get(method, 0) + 1
+        
+        return distribution
     
     def get_module_relationships(self, module_id: str) -> Dict:
         """Get relationships and synergies for a specific module"""
@@ -174,14 +225,21 @@ if __name__ == "__main__":
     synergies = integration.detect_synergies(sample_modules)
     print(f"✓ Synergy Detection - Score: {synergies['total_score']:.4f}")
     
-    # Optimize selection
+    # Optimize selection (now returns List)
     optimal = integration.optimize_module_selection(num_modules=5)
-    print(f"✓ Optimization - Best Score: {optimal['optimization_score']:.4f}")
+    print(f"✓ Optimization - Selected {len(optimal)} modules: {optimal}")
     
     # Get relationships
     if sample_modules:
         relationships = integration.get_module_relationships(sample_modules[0])
         print(f"✓ Relationships - Related modules: {relationships['num_related_by_category']}")
+    
+    # Analyze distributions
+    cat_dist = integration.analyze_category_distribution()
+    print(f"✓ Category Distribution: {len(cat_dist)} categories")
+    
+    method_dist = integration.analyze_ai_method_distribution()
+    print(f"✓ AI Method Distribution: {len(method_dist)} methods")
     
     # Export
     integration.export_synergy_analysis(sample_modules, 'synergy_analysis.json')
