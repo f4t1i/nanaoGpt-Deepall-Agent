@@ -5,9 +5,9 @@ class Module:
     def __init__(self, module_id: str, name: str, category: str, function: str, ai_training_method: str):
         self.id = module_id
         self.name = name
-        self.category = category
-        self.function = function
-        self.ai_training_method = ai_training_method
+        self.category = str(category)
+        self.function = str(function)
+        self.ai_training_method = str(ai_training_method)
     
     def to_dict(self):
         return {
@@ -26,11 +26,11 @@ class ModuleInventory:
         self.modules = {}
         for module_data in data:
             module = Module(
-                module_data['id'],
-                module_data['name'],
-                module_data['category'],
-                module_data['function'],
-                module_data['ai_training_method']
+                str(module_data.get('id', '')),
+                str(module_data.get('name', '')),
+                str(module_data.get('category', '')),
+                str(module_data.get('function', '')),
+                str(module_data.get('ai_training_method', ''))
             )
             self.modules[module.id] = module
     
@@ -47,8 +47,8 @@ class ModuleInventory:
         return [m for m in self.modules.values() if m.ai_training_method == method]
     
     def print_statistics(self):
-        categories = set(m.category for m in self.modules.values())
-        ai_methods = set(m.ai_training_method for m in self.modules.values())
+        categories = set(str(m.category) for m in self.modules.values())
+        ai_methods = set(str(m.ai_training_method) for m in self.modules.values())
         print(f"✓ Loaded {len(self.modules)} modules from deepall_modules.json")
         print(f"Categories: {len(categories)} ({', '.join(sorted(categories))})")
         print(f"AI Methods: {len(ai_methods)} ({', '.join(sorted(ai_methods))})")
