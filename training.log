@@ -1,0 +1,121 @@
+2026-01-13 15:35:40,171 - regularization - INFO - Initialized Fisher Information Matrix for 2 parameters
+2026-01-13 15:35:40,192 - utils - INFO - Saved configuration to /tmp/tmppn2e4ivb.yaml
+2026-01-13 15:35:40,193 - utils - INFO - Loaded configuration from /tmp/tmppn2e4ivb.yaml
+2026-01-13 15:35:40,194 - utils - INFO - Using CPU
+2026-01-13 15:35:45,922 - utils - INFO - Set random seed to 42
+2026-01-13 15:35:45,922 - utils - INFO - Set random seed to 42
+2026-01-13 15:36:18,803 - regularization - INFO - Initialized Fisher Information Matrix for 2 parameters
+2026-01-13 15:36:18,814 - utils - INFO - Saved configuration to /tmp/tmpwrm4toam.yaml
+2026-01-13 15:36:18,815 - utils - INFO - Loaded configuration from /tmp/tmpwrm4toam.yaml
+2026-01-13 15:36:18,815 - utils - INFO - Using CPU
+2026-01-13 15:36:22,232 - utils - INFO - Set random seed to 42
+2026-01-13 15:36:22,232 - utils - INFO - Set random seed to 42
+2026-01-13 15:36:40,177 - regularization - INFO - Initialized Fisher Information Matrix for 2 parameters
+2026-01-13 15:36:40,188 - utils - INFO - Saved configuration to /tmp/tmp657nru8u.yaml
+2026-01-13 15:36:40,189 - utils - INFO - Loaded configuration from /tmp/tmp657nru8u.yaml
+2026-01-13 15:36:40,189 - utils - INFO - Using CPU
+2026-01-13 15:36:43,641 - utils - INFO - Set random seed to 42
+2026-01-13 15:36:43,642 - utils - INFO - Set random seed to 42
+2026-01-13 15:37:09,357 - regularization - INFO - Initialized Fisher Information Matrix for 2 parameters
+2026-01-13 15:37:10,137 - utils - INFO - Saved configuration to /tmp/tmp08pv85q2.yaml
+2026-01-13 15:37:10,138 - utils - INFO - Loaded configuration from /tmp/tmp08pv85q2.yaml
+2026-01-13 15:37:10,139 - utils - INFO - Using CPU
+2026-01-13 15:37:13,767 - utils - INFO - Set random seed to 42
+2026-01-13 15:37:13,768 - utils - INFO - Set random seed to 42
+2026-01-13 15:41:01,027 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:41:01,307 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:41:01,375 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:41:01,393 - regularization - INFO - Initialized Progressive Inheritance Regularization (γ=0.1)
+2026-01-13 15:41:05,225 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:41:05,225 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:41:05,590 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:41:05,590 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:41:05,638 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:43:00,349 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:43:00,350 - regularization - INFO - Computing Fisher Information Matrix...
+2026-01-13 15:43:00,555 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:43:00,641 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:43:00,662 - regularization - INFO - Initialized Progressive Inheritance Regularization (γ=0.1)
+2026-01-13 15:43:04,569 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:43:04,570 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:43:04,901 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:43:04,901 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:43:04,903 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:43:13,881 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:43:13,882 - regularization - INFO - Computing Fisher Information Matrix...
+2026-01-13 15:43:13,980 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:43:14,053 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:43:14,066 - regularization - INFO - Initialized Progressive Inheritance Regularization (γ=0.1)
+2026-01-13 15:43:17,842 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:43:17,842 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:43:18,134 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:43:18,134 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:43:18,135 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:44:38,817 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:44:38,818 - regularization - INFO - Computing Fisher Information Matrix...
+2026-01-13 15:44:38,917 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:44:38,988 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:44:39,002 - regularization - INFO - Initialized Progressive Inheritance Regularization (γ=0.1)
+2026-01-13 15:44:42,568 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:44:42,569 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:44:42,876 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:44:42,876 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:44:42,920 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:44:42,920 - train_miniseries - INFO - Training initialized
+2026-01-13 15:44:42,942 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:44:42,986 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:44:42,986 - train_miniseries - INFO - Training initialized
+2026-01-13 15:45:03,846 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:45:03,848 - regularization - INFO - Computing Fisher Information Matrix...
+2026-01-13 15:45:03,957 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:45:04,039 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:45:04,056 - regularization - INFO - Initialized Progressive Inheritance Regularization (γ=0.1)
+2026-01-13 15:45:08,527 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:45:08,528 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:45:08,849 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:45:08,849 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:45:08,899 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:45:08,900 - train_miniseries - INFO - Training initialized
+2026-01-13 15:45:08,919 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:45:08,966 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:45:08,967 - train_miniseries - INFO - Training initialized
+2026-01-13 15:45:17,549 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:45:17,550 - regularization - INFO - Computing Fisher Information Matrix...
+2026-01-13 15:45:17,658 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:45:17,754 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:45:17,774 - regularization - INFO - Initialized Progressive Inheritance Regularization (γ=0.1)
+2026-01-13 15:45:21,922 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:45:21,923 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:45:22,234 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:45:22,234 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:45:22,280 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:45:22,281 - train_miniseries - INFO - Training initialized
+2026-01-13 15:45:22,299 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:45:22,345 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:45:22,345 - train_miniseries - INFO - Training initialized
+2026-01-13 15:45:39,204 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:45:39,315 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:45:39,410 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:45:39,426 - regularization - INFO - Initialized Progressive Inheritance Regularization (γ=0.1)
+2026-01-13 15:45:43,406 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:45:43,409 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:45:43,748 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:45:43,748 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:45:43,794 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:45:43,795 - train_miniseries - INFO - Training initialized
+2026-01-13 15:45:43,811 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:45:43,859 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:45:43,860 - train_miniseries - INFO - Training initialized
+2026-01-13 15:46:13,727 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:46:13,818 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:46:13,906 - regularization - INFO - Initialized Fisher Information Matrix for 27 parameters
+2026-01-13 15:46:13,920 - regularization - INFO - Initialized Progressive Inheritance Regularization (γ=0.1)
+2026-01-13 15:46:17,620 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:46:17,620 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:46:17,915 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:46:17,915 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:46:17,961 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:46:17,962 - train_miniseries - INFO - Training initialized
+2026-01-13 15:46:17,963 - train_miniseries - INFO - Initialized MiniseriesTrainer on cpu
+2026-01-13 15:46:18,009 - ars_optimizer - INFO - Initialized ARS Optimizer
+2026-01-13 15:46:18,009 - train_miniseries - INFO - Training initialized

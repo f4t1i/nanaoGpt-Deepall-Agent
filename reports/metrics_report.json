@@ -1,0 +1,66 @@
+{
+  "timestamp": "2026-01-13T20:33:45",
+  "num_models": 5,
+  "models": [
+    {
+      "model_name": "d10",
+      "num_parameters": 7000000,
+      "num_tokens": 56000000,
+      "perplexity": 30.0,
+      "core_score": 1.0,
+      "loss": 3.4,
+      "training_time_hours": 2.0,
+      "estimated_cost_usd": 0.88
+    },
+    {
+      "model_name": "d11",
+      "num_parameters": 14000000,
+      "num_tokens": 112000000,
+      "perplexity": 28.0,
+      "core_score": 0.95,
+      "loss": 3.3,
+      "training_time_hours": 1.0,
+      "estimated_cost_usd": 0.44
+    },
+    {
+      "model_name": "d12",
+      "num_parameters": 28000000,
+      "num_tokens": 224000000,
+      "perplexity": 26.0,
+      "core_score": 0.9,
+      "loss": 3.1999999999999997,
+      "training_time_hours": 1.0,
+      "estimated_cost_usd": 0.44
+    },
+    {
+      "model_name": "d13",
+      "num_parameters": 56000000,
+      "num_tokens": 448000000,
+      "perplexity": 24.0,
+      "core_score": 0.85,
+      "loss": 3.0999999999999996,
+      "training_time_hours": 1.0,
+      "estimated_cost_usd": 0.44
+    },
+    {
+      "model_name": "d14",
+      "num_parameters": 112000000,
+      "num_tokens": 896000000,
+      "perplexity": 22.0,
+      "core_score": 0.8,
+      "loss": 3.0,
+      "training_time_hours": 1.0,
+      "estimated_cost_usd": 0.44
+    }
+  ],
+  "summary": {
+    "avg_perplexity": 26.0,
+    "min_perplexity": 22.0,
+    "max_perplexity": 30.0,
+    "avg_loss": 3.1999999999999997,
+    "min_loss": 3.0,
+    "max_loss": 3.4,
+    "total_cost_usd": 2.64,
+    "perplexity_improvement": 26.666666666666668
+  }
+}
