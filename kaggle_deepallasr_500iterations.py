@@ -50,7 +50,17 @@ TARGET_DOCUMENTS = [
     'history.csv',
     'index_prefixes.csv',
     'knowledge_base.csv',
-    'komplettes jsonl 1-5 fr nano.txt'
+    'komplettes jsonl 1-5 fr nano.txt',
+    'learning_results.csv',
+    'learning_types.csv',
+    'mastertabelle_clean_utf8.csv',
+    'module_registry.txt',
+    'modules_combined.csv',
+    'op_optimization.csv',
+    'pdf ses ordner framework.txt',
+    'performance.csv',
+    'simulation_results.csv',
+    'simulation_types.csv'
 ]
 
 NUM_ITERATIONS = 500
