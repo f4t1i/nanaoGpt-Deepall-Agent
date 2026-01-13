@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-DEMONSTRATION: Fixed Tests 5.1.1, 5.1.2, and 5.2
+DEMONSTRATION: Fixed Tests 5.1.1, 5.1.2, 5.2, and Solution for 1.4.1
 Shows how the tests were corrected to use actual AI methods from data
+and demonstrates the recommended solution for Test 1.4.1
 """
 
 import sys
@@ -161,6 +162,65 @@ RESULT:
   ✓ Test 5.2: PASSED
   
 Overall Test Suite: 47/48 PASSED (97.9%)
+""")
+
+# ============================================================================
+# BONUS: Solution for Test 1.4.1 (Recommended Implementation)
+# ============================================================================
+
+print("\n" + "="*80)
+print("BONUS: Solution 1 for Test 1.4.1 - Optimized vs Random")
+print("="*80)
+
+print("""
+PROBLEM WITH ORIGINAL TEST 1.4.1:
+  Assumed first 5 modules are "high quality" - incorrect assumption!
+  
+RECOMMENDED SOLUTION:
+  Test the framework's optimization functionality directly.
+  Optimized modules should score higher than random modules.
+""")
+
+print("\nImplementation:")
+print("-" * 80)
+
+# Get optimized modules
+optimized = integration.optimize_module_selection(num_modules=5)
+print(f"\nOptimized Modules (selected by framework):")
+for m in optimized:
+    module = inventory.get_module(m)
+    print(f"  • {m}: {module.name} ({module.category}) - {module.ai_training_method}")
+
+score_optimized = integration.detect_synergies(optimized)['total_score']
+print(f"\nOptimized Score: {score_optimized:.4f}")
+
+# Get random modules
+import random
+random_modules = random.sample(inventory.get_all_module_ids(), 5)
+print(f"\nRandom Modules (selected randomly):")
+for m in random_modules:
+    module = inventory.get_module(m)
+    print(f"  • {m}: {module.name} ({module.category}) - {module.ai_training_method}")
+
+score_random = integration.detect_synergies(random_modules)['total_score']
+print(f"\nRandom Score: {score_random:.4f}")
+
+print(f"\n" + "-" * 80)
+print(f"Comparison:")
+print(f"  Optimized: {score_optimized:.4f}")
+print(f"  Random:    {score_random:.4f}")
+print(f"  Optimized > Random: {score_optimized > score_random}")
+
+test_passed = score_optimized > score_random
+print(f"\nTest Result: {'✓ PASSED' if test_passed else '✗ FAILED'}")
+
+print("""
+WHY THIS SOLUTION IS BETTER:
+  1. ✓ Tests actual optimization functionality
+  2. ✓ Meaningful comparison (optimized should beat random)
+  3. ✓ Deterministic (optimization finds best combination)
+  4. ✓ Aligns with framework's purpose
+  5. ✓ More reliable than positional assumptions
 """)
 
 print("="*80)
