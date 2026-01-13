@@ -105,18 +105,18 @@ class DataLoader:
             'total_files': len(self.csv_data) + len(self.text_data),
             'csv_files': len(self.csv_data),
             'text_files': len(self.text_data),
-            'total_rows': sum(df.shape[0] for df in self.csv_data.values()),
-            'total_columns': sum(df.shape[1] for df in self.csv_data.values()),
+            'total_rows': int(sum(df.shape[0] for df in self.csv_data.values())),
+            'total_columns': int(sum(df.shape[1] for df in self.csv_data.values())),
             'csv_details': {}
         }
         
         for filename, df in self.csv_data.items():
             quality_report['csv_details'][filename] = {
-                'rows': df.shape[0],
-                'columns': df.shape[1],
-                'memory_usage_mb': df.memory_usage(deep=True).sum() / 1024**2,
-                'missing_percentage': (df.isnull().sum().sum() / (df.shape[0] * df.shape[1])) * 100,
-                'duplicate_rows': df.duplicated().sum()
+                'rows': int(df.shape[0]),
+                'columns': int(df.shape[1]),
+                'memory_usage_mb': float(df.memory_usage(deep=True).sum() / 1024**2),
+                'missing_percentage': float((df.isnull().sum().sum() / (df.shape[0] * df.shape[1])) * 100),
+                'duplicate_rows': int(df.duplicated().sum())
             }
         
         logger.info(f"Data Quality Report: {json.dumps(quality_report, indent=2)}")
