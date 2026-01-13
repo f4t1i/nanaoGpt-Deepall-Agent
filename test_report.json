@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-01-13T10:50:41.588650",
+  "total_tests": 10,
+  "passed": 6,
+  "failed": 4,
+  "success_rate": 0.6,
+  "results": {
+    "test_1": {
+      "status": "PASS",
+      "stats": {
+        "total_modules": 215,
+        "categories": 7,
+        "ai_methods": 4
+      }
+    },
+    "test_2": {
+      "status": "PASS",
+      "rewards": [
+        0.8400000000000001,
+        0.4,
+        -0.578
+      ]
+    },
+    "test_3": {
+      "status": "PASS",
+      "sft_samples": 10,
+      "rl_episodes": 5,
+      "icl_examples": 10
+    },
+    "test_4": {
+      "status": "PASS",
+      "accuracy": 0.7667
+    },
+    "test_5": {
+      "status": "FAIL",
+      "error": "ExecutionResult.__init__() got an unexpected keyword argument 'selected_modules'"
+    },
+    "test_6": {
+      "status": "PASS",
+      "accuracy": 0.7815
+    },
+    "test_7": {
+      "status": "FAIL",
+      "error": "ExecutionResult.__init__() got an unexpected keyword argument 'selected_modules'"
+    },
+    "test_8": {
+      "status": "PASS",
+      "synergy_score": 1.35,
+      "optimization_score": 4.1
+    },
+    "test_9": {
+      "status": "FAIL",
+      "error": "cannot import name 'TrainingOrchestrator' from 'training_orchestrator' (/home/ubuntu/nanoGPT-DeepALL-Agent/training_orchestrator.py)"
+    },
+    "test_10": {
+      "status": "FAIL",
+      "error": "Some export files missing"
+    }
+  }
+}

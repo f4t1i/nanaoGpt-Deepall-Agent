@@ -1,0 +1,16 @@
+{
+  "trainer": "ICL",
+  "training_history": [
+    {
+      "iteration": 1,
+      "avg_loss": 0.0208,
+      "avg_accuracy": 0.7915
+    },
+    {
+      "iteration": 2,
+      "avg_loss": 0.0199,
+      "avg_accuracy": 0.8006
+    }
+  ],
+  "num_examples": 15
+}

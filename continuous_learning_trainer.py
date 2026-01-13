@@ -44,10 +44,10 @@ class ContinuousLearningTrainer:
                 
                 result = ExecutionResult(
                     task_id=f"batch{batch_id}_sample{sample_id}",
-                    selected_modules=selected,
-                    expected_modules=expected,
+                    predicted_modules=selected,
+                    actual_modules=expected,
                     execution_time=execution_time,
-                    efficiency_score=random.uniform(0.1, 1.0),
+                    resource_usage=random.uniform(0.1, 1.0),
                     success=success
                 )
                 
@@ -96,10 +96,10 @@ class ContinuousLearningTrainer:
             
             result = ExecutionResult(
                 task_id=f"adapt_step{step}",
-                selected_modules=selected,
-                expected_modules=expected,
+                predicted_modules=selected,
+                actual_modules=expected,
                 execution_time=execution_time,
-                efficiency_score=random.uniform(0.1, 1.0),
+                resource_usage=random.uniform(0.1, 1.0),
                 success=success
             )
             

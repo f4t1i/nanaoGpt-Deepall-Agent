@@ -1,0 +1,17 @@
+{
+  "trainer": "SFT",
+  "learning_rate": 0.001,
+  "training_history": [
+    {
+      "epoch": 1,
+      "avg_loss": 0.2733,
+      "avg_accuracy": 0.7667
+    },
+    {
+      "epoch": 2,
+      "avg_loss": 0.3193,
+      "avg_accuracy": 0.7667
+    }
+  ],
+  "num_training_samples": 30
+}

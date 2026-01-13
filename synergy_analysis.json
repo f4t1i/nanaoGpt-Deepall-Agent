@@ -1,0 +1,40 @@
+{
+  "synergies": [
+    {
+      "type": "category",
+      "categories": [
+        "infrastructure",
+        "optimization"
+      ],
+      "score": 0.3
+    },
+    {
+      "type": "ai_method",
+      "methods": [
+        "self-supervised learning",
+        "reinforcement learning"
+      ],
+      "score": 0.25
+    },
+    {
+      "type": "pairwise",
+      "module_1": "m144",
+      "module_2": "m206",
+      "score": 0.1
+    },
+    {
+      "type": "pairwise",
+      "module_1": "m144",
+      "module_2": "m161",
+      "score": 0.25
+    },
+    {
+      "type": "pairwise",
+      "module_1": "m206",
+      "module_2": "m161",
+      "score": 0.45
+    }
+  ],
+  "total_score": 1.35,
+  "num_modules": 3
+}

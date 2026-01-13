@@ -42,10 +42,10 @@ class RLTrainer:
                 
                 result = ExecutionResult(
                     task_id=f"ep{episode_id}_step{step_id}",
-                    selected_modules=selected,
-                    expected_modules=expected,
+                    predicted_modules=selected,
+                    actual_modules=expected,
                     execution_time=execution_time,
-                    efficiency_score=random.uniform(0.1, 1.0),
+                    resource_usage=random.uniform(0.1, 1.0),
                     success=success
                 )
                 
@@ -88,10 +88,10 @@ class RLTrainer:
                 
                 result = ExecutionResult(
                     task_id=f"test_ep{ep_id}_step{step_id}",
-                    selected_modules=selected,
-                    expected_modules=expected,
+                    predicted_modules=selected,
+                    actual_modules=expected,
                     execution_time=execution_time,
-                    efficiency_score=random.uniform(0.1, 1.0),
+                    resource_usage=random.uniform(0.1, 1.0),
                     success=success
                 )
                 
