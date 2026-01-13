@@ -1,0 +1,25 @@
+{
+  "framework": "nanoGPT-DeepALL-Agent",
+  "total_modules": 215,
+  "training_methods": 4,
+  "results": {
+    "sft": {
+      "accuracy": 0.7,
+      "total_samples": 20,
+      "epochs": 2
+    },
+    "rl": {
+      "success_rate": 0.05,
+      "avg_reward": -0.5231,
+      "episodes": 2
+    },
+    "icl": {
+      "accuracy": 0.8156,
+      "test_examples": 5
+    },
+    "cl": {
+      "avg_reward": -0.5521,
+      "total_samples": 40
+    }
+  }
+}

@@ -3,13 +3,13 @@
   "training_history": [
     {
       "iteration": 1,
-      "avg_loss": 0.0208,
-      "avg_accuracy": 0.7915
+      "avg_loss": 0.0213,
+      "avg_accuracy": 0.7875
     },
     {
       "iteration": 2,
-      "avg_loss": 0.0199,
-      "avg_accuracy": 0.8006
+      "avg_loss": 0.0207,
+      "avg_accuracy": 0.7925
     }
   ],
   "num_examples": 15

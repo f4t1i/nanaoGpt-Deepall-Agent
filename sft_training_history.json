@@ -4,13 +4,13 @@
   "training_history": [
     {
       "epoch": 1,
-      "avg_loss": 0.2733,
-      "avg_accuracy": 0.7667
+      "avg_loss": 0.2134,
+      "avg_accuracy": 0.5667
     },
     {
       "epoch": 2,
-      "avg_loss": 0.3193,
-      "avg_accuracy": 0.7667
+      "avg_loss": 0.2372,
+      "avg_accuracy": 0.5667
     }
   ],
   "num_training_samples": 30

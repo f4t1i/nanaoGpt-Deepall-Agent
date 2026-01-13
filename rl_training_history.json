@@ -1,0 +1,25 @@
+{
+  "trainer": "RL",
+  "learning_rate": 0.001,
+  "training_history": [
+    {
+      "episode": 1,
+      "avg_reward": -0.578,
+      "total_loss": 0.0578,
+      "num_steps": 10
+    },
+    {
+      "episode": 2,
+      "avg_reward": -0.578,
+      "total_loss": 0.0578,
+      "num_steps": 10
+    },
+    {
+      "episode": 3,
+      "avg_reward": -0.578,
+      "total_loss": 0.0578,
+      "num_steps": 10
+    }
+  ],
+  "num_episodes": 3
+}

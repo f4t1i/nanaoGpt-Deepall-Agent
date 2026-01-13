@@ -3,38 +3,31 @@
     {
       "type": "category",
       "categories": [
+        "healthcare",
         "infrastructure",
-        "optimization"
+        "security"
       ],
-      "score": 0.3
-    },
-    {
-      "type": "ai_method",
-      "methods": [
-        "self-supervised learning",
-        "reinforcement learning"
-      ],
-      "score": 0.25
+      "score": 0.5
     },
     {
       "type": "pairwise",
-      "module_1": "m144",
-      "module_2": "m206",
+      "module_1": "m188",
+      "module_2": "m116",
       "score": 0.1
     },
     {
       "type": "pairwise",
-      "module_1": "m144",
-      "module_2": "m161",
-      "score": 0.25
+      "module_1": "m188",
+      "module_2": "m059",
+      "score": 0.1
     },
     {
       "type": "pairwise",
-      "module_1": "m206",
-      "module_2": "m161",
-      "score": 0.45
+      "module_1": "m116",
+      "module_2": "m059",
+      "score": 0.1
     }
   ],
-  "total_score": 1.35,
+  "total_score": 0.8,
   "num_modules": 3
 }

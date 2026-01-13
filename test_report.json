@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-01-13T10:50:41.588650",
+  "timestamp": "2026-01-13T10:51:17.204993",
   "total_tests": 10,
-  "passed": 6,
-  "failed": 4,
-  "success_rate": 0.6,
+  "passed": 10,
+  "failed": 0,
+  "success_rate": 1.0,
   "results": {
     "test_1": {
       "status": "PASS",
@@ -29,32 +29,36 @@
     },
     "test_4": {
       "status": "PASS",
-      "accuracy": 0.7667
+      "accuracy": 0.5667
     },
     "test_5": {
-      "status": "FAIL",
-      "error": "ExecutionResult.__init__() got an unexpected keyword argument 'selected_modules'"
+      "status": "PASS",
+      "success_rate": 0.1
     },
     "test_6": {
       "status": "PASS",
-      "accuracy": 0.7815
+      "accuracy": 0.7575
     },
     "test_7": {
-      "status": "FAIL",
-      "error": "ExecutionResult.__init__() got an unexpected keyword argument 'selected_modules'"
+      "status": "PASS",
+      "adaptation_reward": -0.578,
+      "total_samples": 45
     },
     "test_8": {
       "status": "PASS",
-      "synergy_score": 1.35,
+      "synergy_score": 0.8,
       "optimization_score": 4.1
     },
     "test_9": {
-      "status": "FAIL",
-      "error": "cannot import name 'TrainingOrchestrator' from 'training_orchestrator' (/home/ubuntu/nanoGPT-DeepALL-Agent/training_orchestrator.py)"
+      "status": "PASS",
+      "sft_accuracy": 0.7,
+      "rl_success_rate": 0.05,
+      "icl_accuracy": 0.8156,
+      "cl_avg_reward": -0.5521
     },
     "test_10": {
-      "status": "FAIL",
-      "error": "Some export files missing"
+      "status": "PASS",
+      "files_verified": 6
     }
   }
 }
