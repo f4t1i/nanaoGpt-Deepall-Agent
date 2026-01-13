@@ -1,0 +1,1973 @@
+[
+  {
+    "id": "m001",
+    "name": "deepcore",
+    "category": "ai",
+    "function": "data processing",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "security enhancement",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m002",
+    "name": "deepvault",
+    "category": "healthcare",
+    "function": "cloud management",
+    "ai_training_method": "federated learning",
+    "benefit": "security enhancement",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m003",
+    "name": "deepfusion",
+    "category": "security",
+    "function": "anomaly detection",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "time efficiency",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m004",
+    "name": "deepedge",
+    "category": "finance",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m005",
+    "name": "deepflow",
+    "category": "ai",
+    "function": "machine learning",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m006",
+    "name": "deepadapt",
+    "category": "infrastructure",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "automation",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m007",
+    "name": "deepefficiency",
+    "category": "finance",
+    "function": "optimization",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "automation",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m008",
+    "name": "deepstructure",
+    "category": "finance",
+    "function": "cloud management",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "security enhancement",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m009",
+    "name": "deepsync",
+    "category": "finance",
+    "function": "anomaly detection",
+    "ai_training_method": "federated learning",
+    "benefit": "security enhancement",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m010",
+    "name": "deepcloud",
+    "category": "optimization",
+    "function": "data processing",
+    "ai_training_method": "federated learning",
+    "benefit": "cost reduction",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m011",
+    "name": "deepreasoning",
+    "category": "ai",
+    "function": "data processing",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "security enhancement",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m012",
+    "name": "deepscenario",
+    "category": "ai",
+    "function": "cloud management",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "security enhancement",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m013",
+    "name": "deeprisk",
+    "category": "finance",
+    "function": "machine learning",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m014",
+    "name": "deepconsensus",
+    "category": "security",
+    "function": "machine learning",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m015",
+    "name": "deepai-adaptive",
+    "category": "finance",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m016",
+    "name": "deeperrorcheck",
+    "category": "optimization",
+    "function": "machine learning",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m017",
+    "name": "deepmeta-learning",
+    "category": "healthcare",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m018",
+    "name": "deepstrategy",
+    "category": "optimization",
+    "function": "cloud management",
+    "ai_training_method": "federated learning",
+    "benefit": "cost reduction",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m019",
+    "name": "deepdecisionflow",
+    "category": "security",
+    "function": "optimization",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "cost reduction",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m020",
+    "name": "deepvision",
+    "category": "finance",
+    "function": "anomaly detection",
+    "ai_training_method": "federated learning",
+    "benefit": "cost reduction",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m021",
+    "name": "deepexpertise",
+    "category": "ai",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m022",
+    "name": "deepcheck",
+    "category": "infrastructure",
+    "function": "optimization",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "automation",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m023",
+    "name": "deepsecurity",
+    "category": "finance",
+    "function": "data processing",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "time efficiency",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m024",
+    "name": "deepaudit",
+    "category": "security",
+    "function": "cloud management",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m025",
+    "name": "deepstabilitycheck",
+    "category": "ai",
+    "function": "optimization",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "cost reduction",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m026",
+    "name": "deeploadbalancer",
+    "category": "optimization",
+    "function": "machine learning",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "time efficiency",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m027",
+    "name": "deepcryptography",
+    "category": "healthcare",
+    "function": "machine learning",
+    "ai_training_method": "federated learning",
+    "benefit": "cost reduction",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m028",
+    "name": "deepchain",
+    "category": "healthcare",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m029",
+    "name": "deepautodate",
+    "category": "finance",
+    "function": "optimization",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "security enhancement",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m030",
+    "name": "deepbackup",
+    "category": "optimization",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "automation",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m031",
+    "name": "deepregistry",
+    "category": "infrastructure",
+    "function": "optimization",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "automation",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m032",
+    "name": "deepcloudbridge",
+    "category": "infrastructure",
+    "function": "machine learning",
+    "ai_training_method": "federated learning",
+    "benefit": "cost reduction",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m033",
+    "name": "deeptrading",
+    "category": "security",
+    "function": "data processing",
+    "ai_training_method": "federated learning",
+    "benefit": "security enhancement",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m034",
+    "name": "deepfinance",
+    "category": "healthcare",
+    "function": "data processing",
+    "ai_training_method": "federated learning",
+    "benefit": "automation",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m035",
+    "name": "deepoil",
+    "category": "optimization",
+    "function": "anomaly detection",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "cost reduction",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m036",
+    "name": "deepindustry",
+    "category": "finance",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m036",
+    "name": "deepindustry",
+    "category": "finance",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m037",
+    "name": "deepmilitary",
+    "category": "ai",
+    "function": "machine learning",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m038",
+    "name": "deepdiscovery",
+    "category": "finance",
+    "function": "optimization",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "security enhancement",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m039",
+    "name": "deepanticipate",
+    "category": "finance",
+    "function": "optimization",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "automation",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m040",
+    "name": "deepai-climate",
+    "category": "optimization",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m041",
+    "name": "deepai-selfcheck",
+    "category": "optimization",
+    "function": "anomaly detection",
+    "ai_training_method": "federated learning",
+    "benefit": "cost reduction",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m042",
+    "name": "deepquantumsim",
+    "category": "optimization",
+    "function": "machine learning",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m043",
+    "name": "deepmindmap",
+    "category": "ai",
+    "function": "optimization",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m044",
+    "name": "deepautostructure",
+    "category": "optimization",
+    "function": "machine learning",
+    "ai_training_method": "federated learning",
+    "benefit": "automation",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m045",
+    "name": "deepoptimizerx",
+    "category": "security",
+    "function": "optimization",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "automation",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m046",
+    "name": "deepai-riskmodel",
+    "category": "finance",
+    "function": "machine learning",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "cost reduction",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m047",
+    "name": "deepai-propaganda",
+    "category": "healthcare",
+    "function": "cloud management",
+    "ai_training_method": "federated learning",
+    "benefit": "security enhancement",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m048",
+    "name": "deepphysicsai",
+    "category": "infrastructure",
+    "function": "optimization",
+    "ai_training_method": "federated learning",
+    "benefit": "security enhancement",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m049",
+    "name": "deepquantumai",
+    "category": "ai",
+    "function": "anomaly detection",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m050",
+    "name": "deeprelativityai",
+    "category": "infrastructure",
+    "function": "cloud management",
+    "ai_training_method": "federated learning",
+    "benefit": "cost reduction",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m051",
+    "name": "deepsingularityai",
+    "category": "finance",
+    "function": "machine learning",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "security enhancement",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m052",
+    "name": "deepgravitationai",
+    "category": "optimization",
+    "function": "optimization",
+    "ai_training_method": "federated learning",
+    "benefit": "security enhancement",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m053",
+    "name": "deepanomalyai",
+    "category": "infrastructure",
+    "function": "cloud management",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "time efficiency",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m054",
+    "name": "deepspacetimeai",
+    "category": "security",
+    "function": "anomaly detection",
+    "ai_training_method": "federated learning",
+    "benefit": "cost reduction",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m055",
+    "name": "deeptensorai",
+    "category": "optimization",
+    "function": "optimization",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "security enhancement",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m056",
+    "name": "deephyperdimensionalai",
+    "category": "finance",
+    "function": "cloud management",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "automation",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m057",
+    "name": "deepequationdiscovery",
+    "category": "infrastructure",
+    "function": "cloud management",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "automation",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m058",
+    "name": "deepenergyfieldai",
+    "category": "ai",
+    "function": "cloud management",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "time efficiency",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m059",
+    "name": "deepcosmologyai",
+    "category": "infrastructure",
+    "function": "data processing",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m060",
+    "name": "deepastrophysicsai",
+    "category": "infrastructure",
+    "function": "machine learning",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m060",
+    "name": "deepastrophysicsai",
+    "category": "infrastructure",
+    "function": "machine learning",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m061",
+    "name": "deepdarkmatterai",
+    "category": "healthcare",
+    "function": "optimization",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "time efficiency",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m062",
+    "name": "deeptimedilationai",
+    "category": "infrastructure",
+    "function": "optimization",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "security enhancement",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m063",
+    "name": "deepautopilot",
+    "category": "finance",
+    "function": "optimization",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "cost reduction",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m064",
+    "name": "deepscenarioai",
+    "category": "ai",
+    "function": "cloud management",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m065",
+    "name": "deepselfreflect",
+    "category": "finance",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m066",
+    "name": "deeprl+",
+    "category": "security",
+    "function": "anomaly detection",
+    "ai_training_method": "federated learning",
+    "benefit": "security enhancement",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m067",
+    "name": "deepnlp+",
+    "category": "optimization",
+    "function": "optimization",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "time efficiency",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m068",
+    "name": "deephealth+",
+    "category": "infrastructure",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m069",
+    "name": "deepgovai",
+    "category": "healthcare",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "cost reduction",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m070",
+    "name": "deepcloudai",
+    "category": "ai",
+    "function": "data processing",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "automation",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m071",
+    "name": "deepethicsai",
+    "category": "healthcare",
+    "function": "optimization",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m072",
+    "name": "deepsocialai",
+    "category": "healthcare",
+    "function": "cloud management",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "security enhancement",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m073",
+    "name": "deepcrisismanager",
+    "category": "healthcare",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "cost reduction",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m074",
+    "name": "deepethicalai",
+    "category": "infrastructure",
+    "function": "machine learning",
+    "ai_training_method": "federated learning",
+    "benefit": "security enhancement",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m075",
+    "name": "deepcognitivesystems",
+    "category": "ai",
+    "function": "anomaly detection",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "cost reduction",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m076",
+    "name": "deepai-regulator",
+    "category": "ai",
+    "function": "data processing",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "cost reduction",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m077",
+    "name": "deepthreatanalysis",
+    "category": "healthcare",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m078",
+    "name": "deepsurveillanceai",
+    "category": "optimization",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m079",
+    "name": "deepfailsafe",
+    "category": "infrastructure",
+    "function": "cloud management",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "time efficiency",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m080",
+    "name": "deeppatternrecognition",
+    "category": "infrastructure",
+    "function": "cloud management",
+    "ai_training_method": "federated learning",
+    "benefit": "automation",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m081",
+    "name": "deepai-exponential",
+    "category": "finance",
+    "function": "anomaly detection",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "automation",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m082",
+    "name": "deepaugmentedai",
+    "category": "infrastructure",
+    "function": "anomaly detection",
+    "ai_training_method": "federated learning",
+    "benefit": "security enhancement",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m083",
+    "name": "deeptranshumanai",
+    "category": "healthcare",
+    "function": "anomaly detection",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "time efficiency",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m084",
+    "name": "deepautonomy",
+    "category": "security",
+    "function": "cloud management",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "automation",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m085",
+    "name": "deepai-training",
+    "category": "healthcare",
+    "function": "cloud management",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m086",
+    "name": "deepai-tuning",
+    "category": "ai",
+    "function": "data processing",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "automation",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m087",
+    "name": "deepai-optimizer",
+    "category": "infrastructure",
+    "function": "optimization",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "automation",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m088",
+    "name": "deepai-refinement",
+    "category": "infrastructure",
+    "function": "optimization",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "cost reduction",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m089",
+    "name": "deepai-validator",
+    "category": "finance",
+    "function": "data processing",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m090",
+    "name": "deepai-accuracy",
+    "category": "security",
+    "function": "optimization",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m091",
+    "name": "deepai-evaluation",
+    "category": "infrastructure",
+    "function": "cloud management",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "automation",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m092",
+    "name": "deepai-predict",
+    "category": "finance",
+    "function": "optimization",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m093",
+    "name": "deepai-adaptation",
+    "category": "finance",
+    "function": "cloud management",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "automation",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m094",
+    "name": "deepai-cluster",
+    "category": "security",
+    "function": "data processing",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m095",
+    "name": "deepai-simulation",
+    "category": "healthcare",
+    "function": "anomaly detection",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "cost reduction",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m096",
+    "name": "deepriskmodel",
+    "category": "healthcare",
+    "function": "data processing",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m096",
+    "name": "deepriskmodel",
+    "category": "healthcare",
+    "function": "data processing",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m097",
+    "name": "deepai-riskcontrol",
+    "category": "healthcare",
+    "function": "optimization",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "cost reduction",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m097",
+    "name": "deepai-riskcontrol",
+    "category": "healthcare",
+    "function": "optimization",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "cost reduction",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m098",
+    "name": "deepmarketai",
+    "category": "optimization",
+    "function": "cloud management",
+    "ai_training_method": "federated learning",
+    "benefit": "security enhancement",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m099",
+    "name": "deepai-security",
+    "category": "healthcare",
+    "function": "optimization",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m100",
+    "name": "deepai-safety",
+    "category": "security",
+    "function": "optimization",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m101",
+    "name": "deepai-errorcorrection",
+    "category": "optimization",
+    "function": "anomaly detection",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m102",
+    "name": NaN,
+    "category": NaN,
+    "function": NaN,
+    "ai_training_method": NaN,
+    "benefit": NaN,
+    "technology": NaN
+  },
+  {
+    "id": "m103",
+    "name": "deepai-protocol",
+    "category": "healthcare",
+    "function": "optimization",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "cost reduction",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m104",
+    "name": "deepai-cloud",
+    "category": "optimization",
+    "function": "anomaly detection",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m105",
+    "name": "deepai-cloudsync",
+    "category": "security",
+    "function": "cloud management",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m106",
+    "name": "deepdatalink",
+    "category": "healthcare",
+    "function": "cloud management",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "automation",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m107",
+    "name": "deepai-datahub",
+    "category": "ai",
+    "function": "anomaly detection",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "security enhancement",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m108",
+    "name": "deepai-datastream",
+    "category": "infrastructure",
+    "function": "data processing",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "cost reduction",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m109",
+    "name": "deepsync 4.0",
+    "category": "security",
+    "function": "cloud management",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "automation",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m110",
+    "name": "deepai-interaction",
+    "category": "finance",
+    "function": "data processing",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "cost reduction",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m111",
+    "name": "deepai-emotion",
+    "category": "finance",
+    "function": "cloud management",
+    "ai_training_method": "federated learning",
+    "benefit": "automation",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m112",
+    "name": "deepai-interface",
+    "category": "security",
+    "function": "cloud management",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "security enhancement",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m113",
+    "name": "deepai-feedback",
+    "category": "finance",
+    "function": "machine learning",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "automation",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m114",
+    "name": "deepai-visualize",
+    "category": "security",
+    "function": "optimization",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "cost reduction",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m115",
+    "name": "deepai-quantum",
+    "category": "ai",
+    "function": "optimization",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m116",
+    "name": "deepai-sustainability",
+    "category": "security",
+    "function": "data processing",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m117",
+    "name": "deepai-encryption",
+    "category": "healthcare",
+    "function": "optimization",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "security enhancement",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m118",
+    "name": "deepai-accesscontrol",
+    "category": "healthcare",
+    "function": "data processing",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "cost reduction",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m119",
+    "name": "deepai-threatdetection",
+    "category": "optimization",
+    "function": "cloud management",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "cost reduction",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m120",
+    "name": "deepai-dataintegrity",
+    "category": "finance",
+    "function": "machine learning",
+    "ai_training_method": "federated learning",
+    "benefit": "cost reduction",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m121",
+    "name": "deepai-analytics",
+    "category": "infrastructure",
+    "function": "machine learning",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "security enhancement",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m122",
+    "name": "deepai-analyzer",
+    "category": "finance",
+    "function": "cloud management",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m123",
+    "name": "deepai-insight",
+    "category": "security",
+    "function": "anomaly detection",
+    "ai_training_method": "federated learning",
+    "benefit": "automation",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m124",
+    "name": "deepai-discovery",
+    "category": "infrastructure",
+    "function": "anomaly detection",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "security enhancement",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m125",
+    "name": "deepai-research",
+    "category": "infrastructure",
+    "function": "optimization",
+    "ai_training_method": "federated learning",
+    "benefit": "automation",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m126",
+    "name": "deepai-lab",
+    "category": "finance",
+    "function": "data processing",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m127",
+    "name": "deepai-scientificcompute",
+    "category": "infrastructure",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "security enhancement",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m128",
+    "name": "deepai-datascience",
+    "category": "infrastructure",
+    "function": "optimization",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m129",
+    "name": "deepai-integrator",
+    "category": "healthcare",
+    "function": "cloud management",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "automation",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m130",
+    "name": "deepai-apiconnector",
+    "category": "ai",
+    "function": "machine learning",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "cost reduction",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m131",
+    "name": "deepai-knowledgeintegration",
+    "category": "security",
+    "function": "data processing",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "cost reduction",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m132",
+    "name": "deepai-systemsync",
+    "category": "finance",
+    "function": "data processing",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "automation",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m133",
+    "name": "deepoutsync",
+    "category": "healthcare",
+    "function": "anomaly detection",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "cost reduction",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m134",
+    "name": "deepai-communication",
+    "category": "optimization",
+    "function": "optimization",
+    "ai_training_method": "federated learning",
+    "benefit": "automation",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m135",
+    "name": "deepai-chat",
+    "category": "infrastructure",
+    "function": "cloud management",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "security enhancement",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m136",
+    "name": "deepai-languageprocessing",
+    "category": "infrastructure",
+    "function": "machine learning",
+    "ai_training_method": "federated learning",
+    "benefit": "security enhancement",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m137",
+    "name": "deepai-voicerecognition",
+    "category": "finance",
+    "function": "data processing",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "security enhancement",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m138",
+    "name": "deepai-voiceassistant",
+    "category": "ai",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "cost reduction",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m139",
+    "name": "deepai-virtualassistant",
+    "category": "ai",
+    "function": "cloud management",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "time efficiency",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m140",
+    "name": "deepai-taskassist",
+    "category": "finance",
+    "function": "machine learning",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "cost reduction",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m141",
+    "name": "deepai-workflowassist",
+    "category": "finance",
+    "function": "optimization",
+    "ai_training_method": "federated learning",
+    "benefit": "cost reduction",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m142",
+    "name": "deepai-socialmedia",
+    "category": "healthcare",
+    "function": "anomaly detection",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m143",
+    "name": "deepai-socialinteraction",
+    "category": "finance",
+    "function": "machine learning",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m144",
+    "name": "deepai-socialbehavior",
+    "category": "optimization",
+    "function": "anomaly detection",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "time efficiency",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m145",
+    "name": "deepai-communitymanagement",
+    "category": "healthcare",
+    "function": "cloud management",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m146",
+    "name": "deepai-recommendationsystem",
+    "category": "infrastructure",
+    "function": "anomaly detection",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "cost reduction",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m147",
+    "name": "deepai-personalizationengine",
+    "category": "infrastructure",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "automation",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m148",
+    "name": "deepai-customerprofile",
+    "category": "infrastructure",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "security enhancement",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m149",
+    "name": "deepai-behavioralrecommendation",
+    "category": "infrastructure",
+    "function": "data processing",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "automation",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m150",
+    "name": "deepai-healthcare",
+    "category": "security",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "cost reduction",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m151",
+    "name": "deepai-medicine",
+    "category": "optimization",
+    "function": "anomaly detection",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m152",
+    "name": "deepai-diagnosis",
+    "category": "healthcare",
+    "function": "data processing",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "security enhancement",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m153",
+    "name": "deepai-healthpredict",
+    "category": "healthcare",
+    "function": "machine learning",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "security enhancement",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m154",
+    "name": "deepai-healthdata",
+    "category": "infrastructure",
+    "function": "machine learning",
+    "ai_training_method": "federated learning",
+    "benefit": "automation",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m155",
+    "name": "deepai-medicalanalysis",
+    "category": "ai",
+    "function": "cloud management",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "cost reduction",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m156",
+    "name": "deepai-diseaseprediction",
+    "category": "healthcare",
+    "function": "data processing",
+    "ai_training_method": "federated learning",
+    "benefit": "cost reduction",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m157",
+    "name": "deepai-patientmonitoring",
+    "category": "optimization",
+    "function": "cloud management",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "cost reduction",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m158",
+    "name": "deepai-scientificresearch",
+    "category": "finance",
+    "function": "cloud management",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "security enhancement",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m159",
+    "name": "deepai-labexperiments",
+    "category": "optimization",
+    "function": "cloud management",
+    "ai_training_method": "federated learning",
+    "benefit": "automation",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m160",
+    "name": "deepai-innovationlab",
+    "category": "infrastructure",
+    "function": "optimization",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "security enhancement",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m161",
+    "name": "deepai-knowledgediscovery",
+    "category": "infrastructure",
+    "function": "cloud management",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "security enhancement",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m162",
+    "name": "deepai-optimization (core)",
+    "category": "security",
+    "function": "anomaly detection",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m163",
+    "name": "deepbalance",
+    "category": "healthcare",
+    "function": "machine learning",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "automation",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m164",
+    "name": "deepai-loadbalancer",
+    "category": "healthcare",
+    "function": "optimization",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m165",
+    "name": "deephyperscaling",
+    "category": "healthcare",
+    "function": "cloud management",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "cost reduction",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m166",
+    "name": "deepai-autoscaling",
+    "category": "infrastructure",
+    "function": "machine learning",
+    "ai_training_method": "federated learning",
+    "benefit": "security enhancement",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m167",
+    "name": "deepai-cloudmanagement",
+    "category": "healthcare",
+    "function": "data processing",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "automation",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m168",
+    "name": "deepai-realtimemonitoring",
+    "category": "ai",
+    "function": "data processing",
+    "ai_training_method": "federated learning",
+    "benefit": "cost reduction",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m169",
+    "name": "deepai-sensorfusion",
+    "category": "ai",
+    "function": "machine learning",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "automation",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m170",
+    "name": "deepai-globalsensors",
+    "category": "finance",
+    "function": "anomaly detection",
+    "ai_training_method": "federated learning",
+    "benefit": "security enhancement",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m171",
+    "name": "deepai-alertsystem",
+    "category": "healthcare",
+    "function": "machine learning",
+    "ai_training_method": "federated learning",
+    "benefit": "automation",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m172",
+    "name": "deepai-routeoptimization",
+    "category": "security",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "cost reduction",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m173",
+    "name": "deepai-trafficmanagement",
+    "category": "finance",
+    "function": "optimization",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "time efficiency",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m174",
+    "name": "deepai-fleetmanagement",
+    "category": "infrastructure",
+    "function": "data processing",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "security enhancement",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m175",
+    "name": "deepai-delivery",
+    "category": "healthcare",
+    "function": "data processing",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "time efficiency",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m176",
+    "name": "deepai-supplychain",
+    "category": "ai",
+    "function": "cloud management",
+    "ai_training_method": "federated learning",
+    "benefit": "security enhancement",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m177",
+    "name": "deepai-logistics",
+    "category": "security",
+    "function": "machine learning",
+    "ai_training_method": "federated learning",
+    "benefit": "cost reduction",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m178",
+    "name": "deepai-industryanalytics",
+    "category": "finance",
+    "function": "machine learning",
+    "ai_training_method": "federated learning",
+    "benefit": "security enhancement",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m179",
+    "name": "deepai-processcontrol",
+    "category": "security",
+    "function": "anomaly detection",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m180",
+    "name": "deepai-maintenancepredict",
+    "category": "healthcare",
+    "function": "data processing",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "security enhancement",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m181",
+    "name": "deepai-qualitycontrol",
+    "category": "optimization",
+    "function": "anomaly detection",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "cost reduction",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m182",
+    "name": "deepai-strategicplanning",
+    "category": "security",
+    "function": "optimization",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "security enhancement",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m183",
+    "name": "deepai-decisionmaking",
+    "category": "security",
+    "function": "cloud management",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m184",
+    "name": "deepai-prioritization",
+    "category": "infrastructure",
+    "function": "anomaly detection",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "cost reduction",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m185",
+    "name": "deepai-businessanalysis",
+    "category": "ai",
+    "function": "data processing",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m186",
+    "name": "deepai-marketintelligence",
+    "category": "healthcare",
+    "function": "optimization",
+    "ai_training_method": "federated learning",
+    "benefit": "security enhancement",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m187",
+    "name": "deepai-competitiveanalysis",
+    "category": "security",
+    "function": "machine learning",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "automation",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m188",
+    "name": "deepai-performancemetrics",
+    "category": "healthcare",
+    "function": "optimization",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m189",
+    "name": "deepai-customerbehavior",
+    "category": "ai",
+    "function": "anomaly detection",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "security enhancement",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m190",
+    "name": "deepai-personalization",
+    "category": "infrastructure",
+    "function": "data processing",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "automation",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m191",
+    "name": "deepai-userprofiling",
+    "category": "healthcare",
+    "function": "anomaly detection",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "automation",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m192",
+    "name": "deepai-customerinsights",
+    "category": "ai",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "cost reduction",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m193",
+    "name": "deepai-emotionrecognition",
+    "category": "ai",
+    "function": "machine learning",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "automation",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m194",
+    "name": "deepai-behavioralanalytics",
+    "category": "finance",
+    "function": "data processing",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "time efficiency",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m195",
+    "name": "deepai-behavioralmodeling",
+    "category": "infrastructure",
+    "function": "cloud management",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m196",
+    "name": "deepai-neuralcontrol",
+    "category": "infrastructure",
+    "function": "optimization",
+    "ai_training_method": "federated learning",
+    "benefit": "automation",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m197",
+    "name": "deepai-mindmap",
+    "category": "healthcare",
+    "function": "optimization",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "security enhancement",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m198",
+    "name": "deepai-cognitive",
+    "category": "optimization",
+    "function": "machine learning",
+    "ai_training_method": "federated learning",
+    "benefit": "time efficiency",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m199",
+    "name": "deepai-exploratoryresearch",
+    "category": "finance",
+    "function": "anomaly detection",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m200",
+    "name": "deepmemoryai",
+    "category": "infrastructure",
+    "function": "anomaly detection",
+    "ai_training_method": "federated learning",
+    "benefit": "cost reduction",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m201",
+    "name": "deepai-deepmemory",
+    "category": "ai",
+    "function": "cloud management",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "security enhancement",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m202",
+    "name": "deepai-knowledgegraph",
+    "category": "infrastructure",
+    "function": "anomaly detection",
+    "ai_training_method": "federated learning",
+    "benefit": "automation",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m203",
+    "name": "deepai-databackup",
+    "category": "optimization",
+    "function": "optimization",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "security enhancement",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m204",
+    "name": "deepai-blockchain",
+    "category": "security",
+    "function": "anomaly detection",
+    "ai_training_method": "federated learning",
+    "benefit": "cost reduction",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m205",
+    "name": "deepai-smartcontracts",
+    "category": "security",
+    "function": "cloud management",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "cost reduction",
+    "technology": "bayesian models"
+  },
+  {
+    "id": "m206",
+    "name": "deepai-distributedledger",
+    "category": "infrastructure",
+    "function": "optimization",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "security enhancement",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m207",
+    "name": "deepai-blockchainvalidator",
+    "category": "infrastructure",
+    "function": "anomaly detection",
+    "ai_training_method": "federated learning",
+    "benefit": "cost reduction",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m208",
+    "name": "deepai-machinelearning",
+    "category": "finance",
+    "function": "optimization",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "cost reduction",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m209",
+    "name": "deepai-patternrecognition",
+    "category": "infrastructure",
+    "function": "machine learning",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "cost reduction",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m210",
+    "name": "deepai-datamining",
+    "category": "optimization",
+    "function": "machine learning",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "security enhancement",
+    "technology": "rule-based systems"
+  },
+  {
+    "id": "m211",
+    "name": "deepai-advancedanalytics",
+    "category": "infrastructure",
+    "function": "machine learning",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "cost reduction",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m212",
+    "name": "deepai-neuralnetwork",
+    "category": "healthcare",
+    "function": "anomaly detection",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "automation",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m213",
+    "name": "deepai-qualitycheck",
+    "category": "optimization",
+    "function": "cloud management",
+    "ai_training_method": "self-supervised learning",
+    "benefit": "automation",
+    "technology": "neural networks"
+  },
+  {
+    "id": "m214",
+    "name": "deepai-testsuite",
+    "category": "finance",
+    "function": "optimization",
+    "ai_training_method": "reinforcement learning",
+    "benefit": "time efficiency",
+    "technology": "reinforcement learning"
+  },
+  {
+    "id": "m215",
+    "name": "deepautoformat",
+    "category": "healthcare",
+    "function": "data processing",
+    "ai_training_method": "federated learning",
+    "benefit": "automation",
+    "technology": "neural networks"
+  }
+]
